@@ -62,7 +62,7 @@ func (pIP *PrivateIP) ReadIpandCheck(interfaces []string) {
 	lg := new(logs.WriteLogs)
 	fmt.Println(interfaces)
 
-	handle, err = pcap.OpenLive("wlp3s0", snapLen, promisc, timeout)
+	handle, err = pcap.OpenLive("wlo1", snapLen, promisc, timeout)
 	if err != nil {
 		pIP.terminalLogger.Warn(err)
 		lg.WriteIntoLogFile(err)
