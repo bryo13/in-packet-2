@@ -7,3 +7,13 @@
  packet capture 2021/12/15 12:30:26 The public ip is located at:  	 city: 	 and is serviced by: 
  packet capture 2021/12/15 12:30:26 Public IP found latitude and longitude 95.216.195.133
  packet capture 2021/12/15 12:30:26 The public ip is located at: Finland 	 city:Helsinki 	 and is serviced by: Hetzner Online GmbH
+ packet capture 2023/08/13 10:10:55 Logs for 2023-08-13 10:10:49.98823243 +0300 EAT m=+0.002915842
+ packet capture 2023/08/13 10:10:55 wlp3s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
+ packet capture 2023/08/13 10:12:43 Logs for 2023-08-13 10:12:43.132757603 +0300 EAT m=+0.002898983
+ packet capture 2023/08/13 10:12:43 wlp3s0: You don't have permission to perform this capture on that device (socket: Operation not permitted)
+ packet capture 2023/08/13 10:14:19 Logs for 2023-08-13 10:14:19.428124178 +0300 EAT m=+0.002965239
+ packet capture 2023/08/13 10:14:19 wlp3s0: No such device exists (No such device exists)
+ packet capture 2023/08/13 10:15:56 Logs for 2023-08-13 10:15:56.155080048 +0300 EAT m=+0.003474339
+ packet capture 2023/08/13 10:15:56 wlp3s0: No such device exists (No such device exists)
+ packet capture 2023/08/13 10:15:59 Logs for 2023-08-13 10:15:59.079988387 +0300 EAT m=+0.004187025
+ packet capture 2023/08/13 10:15:59 wlp3s0: No such device exists (No such device exists)

@@ -2,11 +2,8 @@ package main
 
 import (
 	"errors"
-	"flag"
 	"inPacket/logs"
 	"inPacket/privateIP"
-	"log"
-	"net/http"
 	"time"
 )
 
@@ -18,14 +15,18 @@ func main() {
 	interfaces := pIP.CheckInterface()
 	pIP.ReadIpandCheck(interfaces)
 
-	flag.Parse()
-	if flag.NArg() != 1 {
-		log.Fatal("filename not specified")
-	}
-	filename = flag.Args()[0]
-	http.HandleFunc("/", serveHome)
-	http.HandleFunc("/ws", serveWs)
-	if err := http.ListenAndServe(*addr, nil); err != nil {
-		log.Fatal(err)
-	}
+	// websockers and watcher.go unser construction
+
+	/*
+		flag.Parse()
+		if flag.NArg() != 1 {
+			log.Fatal("filename not specified")
+		}
+		filename = flag.Args()[0]
+		http.HandleFunc("/", serveHome)
+		http.HandleFunc("/ws", serveWs)
+		if err := http.ListenAndServe(*addr, nil); err != nil {
+			log.Fatal(err)
+		}
+	*/
 }
